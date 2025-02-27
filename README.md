@@ -22,9 +22,10 @@ RunicMesh is a custom-built Meshtastic node designed for off-grid, long-range co
 ## Project Goals
 
 📡 Enhance off-grid mesh networking
+
 🔋 Maximize energy efficiency
+
 🛠️ Offer modularity & expandability
-🌍 Make it open-source & community-driven
 
 ## Hardware
 
