@@ -11,13 +11,12 @@ RunicMesh is a custom-built Meshtastic node designed for off-grid, long-range co
 - Modular expandability – screen support via plug-in connector 📟
 - Built on ESP32, designed for mobility and versatility 📡
 
-## Features
+## Will feature
 
-- [X] Meshtastic Compatibility – Seamlessly integrates with the Meshtastic ecosystem.
-- [X] Solar-Powered & Energy-Efficient – Smart power management for extended field use.
-- [X] Modular Design – Screen support, optional GPS, and future expandability.
-- [X] Off-Grid Ready – No internet required, all telemetry goes over the mesh network.
-- [X] TUI Dashboard Support – View telemetry data from a controller connected to your laptop.
+- Meshtastic Compatibility – Seamlessly integrates with the Meshtastic ecosystem.
+- Solar-Powered & Energy-Efficient – Smart power management for extended field use.
+- Modular Design – Screen support, optional GPS, and future expandability.
+- Off-Grid Ready – No internet required, all telemetry goes over the mesh network.
 
 ## Project Goals
 
@@ -40,3 +39,4 @@ RunicMesh is a custom-built Meshtastic node designed for off-grid, long-range co
 - Meshtastic firmware customization
 - Deep sleep implementation for power efficiency
 - Telemetry transmission over the mesh network
+
