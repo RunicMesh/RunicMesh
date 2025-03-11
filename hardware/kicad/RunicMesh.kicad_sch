@@ -1629,16 +1629,16 @@
 		(uuid "43c162d4-8862-4b75-be80-02ca79ce7eb2")
 	)
 	(junction
+		(at 104.14 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "709effc4-beb0-4975-9c8d-c4dad2d603ad")
+	)
+	(junction
 		(at 25.4 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8013d0f5-958a-49c7-b9e8-734d0aee9dbb")
-	)
-	(junction
-		(at 121.92 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84aa9df9-e8ab-4ec4-be4f-d9bbc057bbf4")
 	)
 	(junction
 		(at 88.9 33.02)
@@ -1653,6 +1653,12 @@
 		(uuid "a69c8df5-0fee-44b1-bc7c-f0e00efa4ca1")
 	)
 	(junction
+		(at 104.14 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c904fef2-4a17-430f-96dd-62a9f1d55f65")
+	)
+	(junction
 		(at 59.69 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1663,6 +1669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edc9ce8e-7274-4282-91c1-2300e7a00e20")
+	)
+	(junction
+		(at 114.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8e03e6-f849-45bd-91fe-19bf5b115949")
 	)
 	(wire
 		(pts
@@ -1706,6 +1718,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 33.02) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e37baa9-6b1c-4ff4-8a01-4513284741fa")
+	)
+	(wire
+		(pts
 			(xy 38.1 38.1) (xy 38.1 55.88)
 		)
 		(stroke
@@ -1736,7 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 109.22 46.99)
+			(xy 96.52 46.99) (xy 114.3 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +1898,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 101.6 33.02)
+			(xy 104.14 40.64) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858127ae-1c43-488e-8514-87d03f0b6dca")
+	)
+	(wire
+		(pts
+			(xy 88.9 33.02) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1893,6 +1925,16 @@
 			(type default)
 		)
 		(uuid "8c0a9332-0f27-44ee-8081-a5a9164cb6ff")
+	)
+	(wire
+		(pts
+			(xy 101.6 33.02) (xy 104.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df112f4-8d23-4c4f-95d0-f557f3d4d2f5")
 	)
 	(wire
 		(pts
@@ -1926,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 109.22 43.18)
+			(xy 114.3 46.99) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1936,13 +1978,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 114.3 46.99)
+			(xy 119.38 43.18) (xy 119.38 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9dbaf148-b583-4e42-aaf0-4a448f65316e")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a126fdaa-0ef7-4309-8ae0-14d3f1ceedb9")
 	)
 	(wire
 		(pts
@@ -1956,7 +2008,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 40.64)
+			(xy 106.68 38.1) (xy 106.68 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2026,7 +2078,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 50.8) (xy 121.92 54.61)
+			(xy 127 50.8) (xy 127 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 40.64) (xy 88.9 40.64)
+			(xy 106.68 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 54.61) (xy 119.38 54.61)
+			(xy 119.38 54.61) (xy 127 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2086,17 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 121.92 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3bbb342-a75f-436e-892d-9db2f3d9c250")
-	)
-	(wire
-		(pts
-			(xy 121.92 38.1) (xy 121.92 43.18)
+			(xy 127 38.1) (xy 127 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2279,6 +2321,75 @@
 			(project "RunicMesh"
 				(path "/845d8e1e-718e-4ec4-be16-16f250b95f5e"
 					(reference "Rprog1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0942d4d5-bfd2-4692-8420-20fcae152a35")
+		(property "Reference" "Rprog3"
+			(at 97.79 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100"
+			(at 97.79 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 97.79 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6312d41a-56c0-4777-aba1-83c7df61c471")
+		)
+		(pin "2"
+			(uuid "bf08a52b-397b-4a06-bec7-0a401d4d6705")
+		)
+		(instances
+			(project "RunicMesh"
+				(path "/845d8e1e-718e-4ec4-be16-16f250b95f5e"
+					(reference "Rprog3")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 46.99 180)
+		(at 127 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2709,7 +2820,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d90ade9-d2fc-4eff-87c7-799941a154c8")
 		(property "Reference" "Rprog2"
-			(at 115.57 46.99 90)
+			(at 120.65 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2829,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 124.46 46.9899 0)
+			(at 129.54 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 123.698 46.99 90)
+			(at 128.778 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 46.99 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2856,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 46.99 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,8 +2951,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 104.14 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3825b698-032b-4b32-909d-88d90c2a9942")
+		(property "Reference" "C4"
+			(at 107.95 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 107.95 37.2109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+			(at 105.1052 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e08f4142-3f63-4d23-b5bb-0c047b310e27")
+		)
+		(pin "2"
+			(uuid "3606cacb-66d6-4c9d-869a-e908c717ae23")
+		)
+		(instances
+			(project "RunicMesh"
+				(path "/845d8e1e-718e-4ec4-be16-16f250b95f5e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:DW01A")
-		(at 111.76 35.56 0)
+		(at 116.84 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2850,7 +3032,7 @@
 		(fields_autoplaced yes)
 		(uuid "4202ed52-7339-4300-9db9-40d8917ffb29")
 		(property "Reference" "U2"
-			(at 111.76 25.4 0)
+			(at 116.84 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +3040,7 @@
 			)
 		)
 		(property "Value" "DW01A"
-			(at 111.76 27.94 0)
+			(at 116.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 111.76 35.56 0)
+			(at 116.84 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
-			(at 111.76 35.56 0)
+			(at 116.84 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +3066,7 @@
 			)
 		)
 		(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery"
-			(at 112.014 34.036 0)
+			(at 117.094 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
